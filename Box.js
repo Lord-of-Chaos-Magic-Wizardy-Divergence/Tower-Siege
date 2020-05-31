@@ -22,7 +22,7 @@ class Box{
         pop();
           if(this.body.speed > 5 && this.s === 1){
              World.remove(world,this.body);
-          }else{
+          }else if(this.body){
           
         fill(this.r,this.g,0);
         rect(pos.x, pos.y, this.width,this.height);
