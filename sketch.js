@@ -50,7 +50,7 @@ function setup() {
   block29 = new Box(1525,750,50,50,255,0,false,1);
   block30 = new Box(1550,700,50,50,255,0,false,1);
 
-  ground = new Box(950,950,1900,30,255,200,true,2);
+  ground = new Box(950,950,1900,30,255,200,true,1);
 
   playerStone = new Box(950,220,75,75,255,255,false,2);
   chain1 = new Chain(playerStone.body,{x:950,y:200});
