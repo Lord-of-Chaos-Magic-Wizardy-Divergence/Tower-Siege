@@ -18,12 +18,11 @@ class Box{
         var pos =this.body.position;
         var angle = this.body.angle;
         push();
-        rectMode(CENTER);
         pop();
           if(this.body.speed > 5 && this.s === 1){
              World.remove(world,this.body);
           }else if(this.body){
-          
+        rectMode(CENTER);
         fill(this.r,this.g,0);
         rect(pos.x, pos.y, this.width,this.height);
           }
